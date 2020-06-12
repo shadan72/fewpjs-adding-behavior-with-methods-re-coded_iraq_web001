@@ -16,7 +16,7 @@ class Dog{
     this.sex=sex;
   }
   speak(){
-    return `${name} says woof!`
+    return `${this.name} says woof!`
   }
 }
 
@@ -27,10 +27,10 @@ class Bird{
   }
   speak(){
     if(this.sex ==='male')
-    return `It's me! {name}, the parrot!`
+    return `It's me! ${this.name}, the parrot!`
   
   else{
-    return `${name} says squawk!`
+    return `${this.name} says squawk!`
   }
   }
 }
